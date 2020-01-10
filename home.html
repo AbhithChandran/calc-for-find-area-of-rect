@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Work</title>
+</head>
+<body>
+<script type="text/javascript">
+function getarea()
+{
+var number1=document.getElementById("number1").value;
+var number2=document.getElementById("number2").value;
+var number3=number1*number2;
+document.getElementById("num3").value=number3;
+}
+</script>
+<form>
+Width:<input type="text" id="number1" name="number1"/><br/>
+Height:<input type="text" id="number2" name="number2"/><br/>
+Area:<input type="text" id="num3" name="number3"/><br/>
+<input type="button" value="Area" onclick="getarea()"/>
+</form>
+</body>
+</html>
